@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const DOMAIN = 'https://the-clean-commit.pages.dev';
+const DOMAIN = 'https://the-clean-commit.pageaura.xyz';
 const KEY = '786c794f366c4ca0adeb611d9a92b3e9';
 
 const ROOT = __dirname;
@@ -45,7 +45,7 @@ for (const value of rawUrls) {
   }
 
   if (
-    url.hostname.toLowerCase() !== 'the-clean-commit.pages.dev' ||
+    url.hostname.toLowerCase() !== 'the-clean-commit.pageaura.xyz' ||
     !['http:', 'https:'].includes(url.protocol) ||
     url.username ||
     url.password
