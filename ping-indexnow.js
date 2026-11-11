@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const HOST = 'the-clean-commit.pages.dev';
+const HOST = 'the-clean-commit.pageaura.xyz';
 const KEY = '786c794f366c4ca0adeb611d9a92b3e9';
-const KEY_LOCATION = `https://the-clean-commit.pages.dev/786c794f366c4ca0adeb611d9a92b3e9.txt`;
+const KEY_LOCATION = `https://the-clean-commit.pageaura.xyz/786c794f366c4ca0adeb611d9a92b3e9.txt`;
 
 const urlsFile = path.join(__dirname, 'urls.txt');
 let urlList = [];
